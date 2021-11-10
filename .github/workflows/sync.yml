@@ -1,6 +1,8 @@
 on:
   schedule:
   - cron:  "5 7 * * *"
+  watch:
+   types: [started]
   workflow_dispatch:
 
 jobs:
